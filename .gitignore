@@ -1,0 +1,56 @@
+# IDE temp dir
+.idea
+.vscode
+.vs
+.project
+
+#temp file
+*.sw?
+~*
+
+# system files
+.DS_Store
+Thumbs.db
+tsconfig.json
+
+# cmake
+CMakeLists.txt.user*
+CMakeFiles
+cmake_install.cmake
+**/Makefile
+CMakeCache*
+cmake-build-debug*
+
+# ignore -----
+.settings
+core/thirdparty/libunwind/
+core/thirdparty/gperftools/
+server/oxserver/bin/
+server/oxapp/bin/
+server/oxserver/database/
+server/oxserver/pkg
+*.log
+*.[oa]
+*.pyc
+!web/client/build/
+server/oxserver/src/github.com/
+.favorites.json
+web/client/static/docs/docs.wast
+web/client/static/docs/docs.wasm.map
+web/client/static/docs/libdocscore.so
+*.so
+# go.sum
+bin/
+wasm/soulma.wasm.map
+wasm/soulma.wast
+soulma.wasm
+wasm/
+
+*.apk
+**/tmp
+**/log
+
+# rust
+/target/
+Cargo.lock
+**/*.rs.bk
